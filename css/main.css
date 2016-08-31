@@ -1,0 +1,74 @@
+.movie{/*movie theater*/
+	margin-top: 15%;
+}
+.cinema {/*logi cinema*/
+ 	width: 300px;
+ 	height: 100px;
+}	
+.banner{/*baner*/
+	background-image: url("../img/banner.jpg");
+	height: 800px;
+	background-size:100% 100%;
+}
+.BG6{/*icono bg*/
+ 	width: 50px;
+ 	height: 50px;
+ 	margin-top:350px;
+ 	margin-left: 400px;
+ }
+ .titulo{/**/
+ 	color: white;
+ }
+ .pading{
+ 	padding-top: 2%;
+ }
+ .gray{
+ 	color:#DCDCDC;
+ }
+ .blanco{
+ 	color: white;
+ }
+ .green{
+ 	color: green;
+ }
+ .cafe{
+ 	color: brown;
+ }
+ .boton{
+ 	border-radius: 10%;
+ 	border:green solid 1px;
+ 	text-decoration: none;
+ 	background-color: transparent;
+ 	color: green;
+ }
+ .all:hover{
+	background-color: #3AA55A  !important;
+ }
+ a {
+	color: white;
+	text-decoration: none;
+ }
+ .amarillo{
+ 	background-color: yellow;
+ }
+.imagenes{
+	width: 100%;
+	margin-top: 5%;
+}
+.img2{
+	width: 200px;
+	padding-left: 20%;
+}
+iframe{
+	width: 100%;
+	height: 400px;
+}
+.gray{
+	background-color: silver;
+}
+ @media screen and (max-width: 600px) {
+	.movie{
+		display: none !important;/*desaparece el aside a modo
+	responsive*/
+	}
+}
